@@ -1,18 +1,21 @@
-## Getting Started
+# Taller sobre Polimorfismo en Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Descripción
+Este proyecto contiene un taller práctico sobre **polimorfismo en Java**, que incluye ejercicios resueltos y ejemplos de uso correcto e incorrecto. El objetivo es comprender cómo una clase base puede interactuar con diferentes clases derivadas mediante **polimorfismo dinámico** y sobrescritura de métodos.
 
-## Folder Structure
+## Contenido del Proyecto
+- **Ejercicio 1:** Figuras (`Figura`, `Circulo`, `Rectangulo`) y cálculo de áreas.
+- **Ejercicio 2:** Personas (`Persona`, `Estudiante`, `Profesor`) y método `presentarse`.
+- **Ejercicio 3:** Ejemplo de uso incorrecto de polimorfismo (`Animal`, `Perro`).
+- **Ejercicio 4:** Vehículos (`Vehiculo`, `Coche`, `Bicicleta`) y método `mover`.
 
-The workspace contains two folders by default, where:
+## Autor
+Andrés Felipe Guzmán Arrieta
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Tecnologías
+- Java SE 8 o superior
+- IDE recomendado: IntelliJ IDEA, Eclipse o NetBeans
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Uso
+1. Abrir el proyecto en un IDE compatible con Java.  
+2. Ejecutar la clase `Main.java` correspondiente a cada ejercicio para ver el polimorfismo en acción.
